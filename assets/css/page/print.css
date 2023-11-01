@@ -1,0 +1,80 @@
+
+@media print {
+    @page { margin: 1rem; }
+    body { margin: 1.6cm; }
+}
+.container {
+    display: block;
+    min-height: unset;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.header-title {
+    margin-left: 2.5rem;
+}
+
+.header-title h1 {
+    font-size: 1.15rem;
+    margin: 0;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+}
+
+.header-title p {
+    margin: 0;
+    font-size: 0.7rem;
+    letter-spacing: 0.85px;
+    margin: 5px 0;
+
+}
+
+thead th {
+    font-weight: normal;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 40px auto;
+    width: 98%;
+    font-size: 0.6rem;
+}
+
+tr:hover {
+    background-color: unset !important;
+}
+
+th,td {
+    padding: 5px !important;
+    border: 1px solid rgba(85, 86, 90, 0.12);
+}
+
+footer {
+    font-size: 0.65rem;
+    margin: 2rem;
+}
+
+.signature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    margin-top: 1.5rem;
+    margin-left: auto;
+}
+
+.keterangan{
+    width: 98%;
+    margin: auto;
+}
+.keterangan p {
+    font-size: 0;
+}

@@ -1,0 +1,145 @@
+/* Input */
+.input-group {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 10px;
+  /* padding: 15px 20px 3px 0; */
+}
+.input-icon {
+  width: 100%;
+  position: relative;
+}
+
+.input-icon .icon {
+  position: absolute;
+  right: 1px;
+  top: 50%;
+  height: 98%;
+  width: 50px;
+  transform: translateY(-50%);
+}
+
+.input-icon:has(input:-internal-autofill-selected) .icon {
+  background-color: rgb(232, 240, 254) !important;
+}
+.input-icon.is-invalid .icon {
+  background-color: #fff5f5;
+}
+
+.input-icon .input {
+  padding-right: 65px;
+}
+
+/* For button input */
+.button.icon {
+  border-radius: 0px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border: 1px solid var(--color-gray);
+}
+
+.button.icon.no-border {
+  border: none;
+}
+
+.input-label {
+  font-size: 0.85rem;
+  margin-bottom: 15px;
+}
+.input-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.input {
+  background: #f1f1f1;
+  border-radius: 4px;
+  border: none;
+  height: 50px;
+  padding: 0 20px;
+  font-size: 15px;
+  color: black !important;
+  transition: box-shadow 200ms ease-in-out;
+}
+.input::placeholder {
+  color: var(--color-gray);
+}
+.input:focus {
+  box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+  outline: none;
+}
+.input.is-invalid:focus {
+  box-shadow: 0 0 0 0.25rem rgba(253, 41, 13, 0.25);
+  outline: none;
+}
+.input.is-invalid::placeholder {
+  color: #e53e3e;
+}
+
+.input.is-invalid {
+  background: #fff5f5;
+  border: 1px solid #dc3545;
+  padding-right: 2.5rem;
+  background-image: url("../../img/is-invalid.svg");
+  background-repeat: no-repeat;
+  background-position: right 0.5em center;
+  background-size: 1.5rem;
+  border-radius: 4px;
+  animation: shake 0.8s ease-in;
+}
+.is-invalid > input {
+  background: #fff5f5;
+  border: 1px solid #dc3545;
+  padding-right: 2.5rem;
+  background-image: url("../../img/is-invalid.svg");
+  background-repeat: no-repeat;
+  background-position: right 0.5em center;
+  background-size: 1.5rem;
+  outline: none !important;
+  animation: shake 0.8s ease-in;
+  border-radius: 4px;
+}
+/* Invalid */
+.invalid-feedback {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  line-height: 16px;
+  color: red;
+  animation: shake 0.8s ease-in;
+}
+
+/* Select */
+select.input,
+select {
+  padding: 0 50px 0 20px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: 4px;
+  background: #f1f1f1;
+  font-size: 15px;
+  border: none;
+  color: black !important;
+  background-image: url("../../img/chevron-down-solid.svg");
+  background-repeat: no-repeat;
+  background-position: right 1em center;
+  background-size: 0.8rem;
+  background-color: rgba(255, 255, 255, 0.0001);
+  border: 1px solid #d5dbe2;
+}
+
+textarea.input {
+  background: #f1f1f1;
+  padding: 10px;
+  width: unset;
+  height: unset;
+  margin: 0;
+}
+.input:disabled{
+  cursor: not-allowed;
+}

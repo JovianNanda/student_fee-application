@@ -1,0 +1,139 @@
+.ico {
+  font-size: var(--icon-size);
+  font-family: "FontAwesome" !important;
+  color: var(--color-primary);
+}
+.sidebar-item.active > .ico {
+  color: white;
+}
+
+.ico.ico-logo::before {
+  content: "\f555";
+}
+.ico.ico-house::before {
+  content: "\f015";
+}
+.ico.ico-sack-dollar::before {
+  content: "\f81d";
+}
+.ico.ico-users::before {
+  content: "\f0c0";
+}
+.ico.ico-logout::before {
+  content: "\f2f5";
+}
+.ico.ico-login::before {
+  content: "\f2f6";
+}
+.ico.ico-classroom::before {
+  content: "\f549";
+}
+.ico.ico-employee::before {
+  content: "\e54a";
+}
+.ico.ico-caret-down::before {
+  content: "\f0d7";
+}
+.ico.ico-angle-down::before {
+  content: "\f107";
+}
+.ico.ico-user-secret::before {
+  content: "\f21b";
+}
+.ico.ico-print::before {
+  content: "\f02f";
+}
+.ico.ico-times::before {
+  content: "\f00d";
+}
+.ico.ico-exclamation-circle::before {
+  content: "\f06a";
+}
+.ico.ico-exclamation-triangle::before {
+  content: "\f071";
+}
+.ico.ico-check-circle::before {
+  content: "\f058";
+}
+.ico.ico-search::before {
+  content: "\f002";
+}
+.ico.ico-users::before {
+  content: "\f0c0";
+}
+.ico.ico-plus::before {
+  content: "\f067";
+}
+.ico.ico-arrow-left::before {
+  content: "\f060";
+}
+.ico.ico-history::before {
+  content: "\f1da";
+}
+.ico.ico-ellipsis-v::before {
+  content: "\f142";
+}
+.ico.ico-ellipsis-h::before {
+  content: "\f141";
+}
+.ico.ico-file-lines::before {
+  content: "\f15c";
+}
+.ico.ico-receipt::before {
+  content: "\f543";
+}
+.ico.ico-file-dollar::before {
+  content: "\f571";
+}
+.ico.ico-user::before {
+  content: "\f007";
+}
+.ico.ico.ico-eye::before {
+  content: "\f06e";
+}
+.ico.ico.ico-eye-slash::before {
+  content: "\f070";
+}
+.ico.ico-gear::before {
+  content: "\f013";
+}
+.ico.ico-trash::before {
+  content: "\f1f8";
+}
+.ico.ico-pen-to-square::before {
+  content: "\f044";
+}
+.ico.ico-double-check::before {
+  content: "\f560";
+}
+.ico.ico-square-check::before {
+  content: "\f14a";
+}
+.ico.ico-check::before {
+  content: "\f00c";
+}
+.ico.ico-info::before {
+  content: "\f129";
+}
+.ico.ico-circle-info::before {
+  content: "\f05a";
+}
+.ico.ico-info-circle::before {
+  content: "\f05a";
+}
+.ico.ico-caret-left::before {
+  content: "\f0d9";
+}
+.ico.ico-caret-right::before {
+  content: "\f0da";
+}
+
+.ico.ico-1x {
+  font-size: 14px;
+}
+.ico.ico-2x {
+  font-size: 18px;
+}
+.ico.ico-3x {
+  font-size: 22px;
+}

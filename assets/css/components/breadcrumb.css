@@ -1,0 +1,28 @@
+ol {
+  margin: 0;
+}
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #e9ecef;
+  padding: 1rem 0.75rem;
+  margin: 1rem 0;
+  list-style: none;
+  border-radius: 0.25rem;
+  gap: 1rem;
+  column-gap: 0.5rem;
+}
+
+.breadcrumb-item:not(:last-child)::after {
+  /* \00a0 is space or non breaking space or &nbsp; */
+  content: "\00a0\00a0 /";
+}
+
+.breadcrumb-item:not(.active) a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.breadcrumb-item.active * {
+  color: #6c757d;
+}

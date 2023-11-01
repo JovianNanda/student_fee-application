@@ -1,0 +1,42 @@
+/* Button */
+.button {
+  border-radius: 4px;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  transition: all 250ms;
+}
+
+.button:focus:not(:disabled) {
+  box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+  outline: none;
+}
+.button:disabled {
+  opacity: 0.75;
+  filter: brightness(0.8) saturate(0.6) grayscale(0.3);
+  cursor: text;
+}
+
+.button.button-outline {
+  background-color: white;
+  border: 1px solid #303f9f;
+}
+.button.button-close {
+  background-color: transparent;
+}
+.button.button-transparent {
+  background-color: transparent;
+}
+
+.button:hover:not(:disabled) {
+  filter: brightness(var(--hover-brightness));
+}
+.button.bg-danger,
+.button.bg-success,
+.button.bg-info,
+.button.bg-primary,
+.button.bg-sky,
+.button.bg-red,
+.button.bg-green {
+  color: white;
+}

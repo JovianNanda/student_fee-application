@@ -1,0 +1,66 @@
+/* alert */
+.alert{
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    opacity: 0;
+    transform: translateY(-15px);
+    border-radius: 5px;
+    background-color: var(--neutral-gray);
+    color: white;
+    margin: 10px 0;
+    transition: all 300ms ease;
+    padding: 5px 60px 5px 15px;
+    width: fit-content;
+    height: fit-content;
+    min-width: 300px;
+    min-height: 50px;
+}
+
+.alert.show{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.button-close{
+    position: absolute;
+    right: 2px;
+    
+}
+.button-close *{
+    color: white;
+}
+
+.alert > .ico{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 15px;
+    color: white;
+}
+
+/* floating alert */
+.alert.floating-alert{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 6px;
+    background-color: var(--neutral-gray);
+    z-index: 10;
+    color: white;
+    transition: all 400ms ease;
+    opacity: 0;
+    min-width: 300px;
+    min-height: 50px;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px 60px 5px 15px;
+}
+.alert.floating-alert.show{
+    opacity: 1;
+    top: 30px;
+}

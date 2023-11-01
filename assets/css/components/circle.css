@@ -1,0 +1,22 @@
+:root {
+  --circle-sky: rgba(51, 99, 255, 0.35);
+  --circle-red: rgba(255, 105, 97, 0.35);
+  --circle-green: rgba(91, 200, 178, 0.35);
+}
+.circle {
+  display: flex;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.circle-sky {
+  background-color: var(--circle-sky);
+}
+.circle-red {
+  background-color: var(--circle-red);
+}
+.circle-green {
+  background-color: var(--circle-green);
+}

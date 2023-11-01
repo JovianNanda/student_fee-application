@@ -1,0 +1,119 @@
+:root {
+  --color-danger: rgb(255 102 51);
+  --color-info: rgb(51 191 255);
+  --color-success: rgb(40 204 57);
+  --color-sky: rgb(51 97 255);
+  --color-warning: rgb(255 203 51);
+  --color-primary: rgb(136 51 255);
+  --color-secondary: rgb(125 143 179);
+  --color-green-pastel: rgb(91 200 178);
+  --color-red-pastel: rgb(255 105 97);
+  --color-yellow-pastel: rgb(253 253 150);
+  --neutral-gray-dark: rgb(84 85 99);
+  --neutral-black: rgb(43 43 67);
+  --neutral-gray: rgb(131 133 156);
+  --color-gray: rgb(188 190 200);
+
+  /* *Badge Coloring */
+  --badge-bg-success: rgb(235 249 241);
+  --badge-success: rgb(31 146 84);
+  --badge-bg-danger: rgb(251 231 232);
+  --badge-danger: rgb(163 13 17);
+  --badge-bg-warning: rgb(242 242 186);
+  --badge-warning: rgb(163 83 13);
+  --badge-bg-info: rgba(188, 186, 242, 0.45);
+  --badge-info: rgb(31, 13, 163);
+
+  --hover-brightness: 0.9;
+  --icon-size: 20px;
+  --logo-size: 45px;
+}
+
+/* colors */
+.c-black {
+  color: black !important;
+}
+.c-white {
+  color: white !important;
+}
+.c-danger {
+  color: var(--color-danger) !important;
+}
+
+.c-success {
+  color: var(--color-success) !important;
+}
+.c-primary {
+  color: var(--color-primary) !important;
+}
+.c-secondary {
+  color: var(--color-secondary) !important;
+}
+.c-warning {
+  color: var(--color-warning) !important;
+}
+.c-sky {
+  color: var(--color-sky) !important;
+}
+.c-info {
+  color: var(--color-info) !important;
+}
+.c-green {
+  color: var(--color-green-pastel) !important;
+}
+.c-red {
+  color: var(--color-red-pastel) !important;
+}
+.c-yellow {
+  color: var(--color-yellow-pastel) !important;
+}
+.c-gray {
+  color: var(--neutral-gray);
+}
+/* bg-colors */
+.bg-danger {
+  background-color: var(--color-danger) !important;
+}
+.bg-success {
+  background-color: var(--color-success) !important;
+}
+.bg-primary {
+  background-color: var(--color-primary) !important;
+}
+.bg-secondary {
+  background-color: var(--color-secondary) !important;
+}
+.bg-warning {
+  background-color: var(--color-warning) !important;
+}
+.bg-sky {
+  background-color: var(--color-sky) !important;
+}
+.bg-info {
+  background-color: var(--color-info) !important;
+}
+.bg-green {
+  background-color: var(--color-green-pastel) !important;
+}
+.bg-red {
+  background-color: var(--color-red-pastel) !important;
+}
+.bg-yellow {
+  background-color: var(--color-yellow-pastel) !important;
+}
+.bg-badge-warning {
+  background-color: var(--badge-bg-warning) !important;
+}
+.bg-badge-success {
+  background-color: var(--badge-bg-success) !important;
+}
+.bg-badge-danger {
+  background-color: var(--badge-bg-danger) !important;
+}
+.bg-none {
+  background-color: transparent !important;
+}
+.bg-outline {
+  background-color: white !important;
+  border: 1px solid var(--color-gray) !important;
+}
